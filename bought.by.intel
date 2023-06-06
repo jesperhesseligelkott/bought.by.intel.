@@ -1,0 +1,27 @@
+FILEVERSION    2,0,0,10
+PRODUCTVERSION 2,0,0,10
+FILEFLAGSMASK  0x3F
+FILEFLAGS      0x0
+FILEOS         VOS_UNKNOWN | VOS__WINDOWS32
+FILETYPE       VFT_APP
+FILESUBTYPE    0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "000004b0"
+    {
+      VALUE "Comments",          "This installation was built with Inno Setup."
+      VALUE "CompanyName",       "Intel Corporation                                           "
+      VALUE "FileDescription",   "Intel NUC Pro Software Suite Setup                          "
+      VALUE "FileVersion",       "2.0.0.10            "
+      VALUE "LegalCopyright",    "Copyright © 2021 Intel Corporation                                                                  "
+      VALUE "OriginalFileName",  "                                                  "
+      VALUE "ProductName",       "Intel NUC Pro Software Suite                                "
+      VALUE "ProductVersion",    "2.0.0.10                                          "
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0, 1200
+  }
+}
